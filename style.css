@@ -1,0 +1,65 @@
+
+/*-------------------------------HEADER----------------------------*/
+header {
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header a {
+    margin: 1%;
+}
+
+/*---------------------------INTRODUCTION---------------------------*/
+.introduction {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.introduction-information {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.introduction-information h1  {
+    width: 50%;
+}
+
+.introduction-information p {
+    width: 50%;
+}
+
+.introduction-information span {
+    display: block;
+    width: 50%;
+    margin-top: 3%;
+}
+
+#cv_dava {
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 2%;
+}
+
+.introduction-information span img {
+    width: 10%;
+}
+
+
+/*Image intrduction*/
+.introduction-image {
+    width: 30%;
+}
+.introduction-image img {
+    width: 70%;
+}
