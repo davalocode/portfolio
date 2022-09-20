@@ -63,3 +63,29 @@ header a {
 .introduction-image img {
     width: 70%;
 }
+
+/*---------------------------------ABOUT ME--------------------------------*/
+.about-me {
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-me-information {
+    width: 46%;
+    margin: 2%;
+    height: 400px;
+}
+
+.about-me-experience {
+    width: 46%;
+    margin: 2%;
+    height: 400px;
+}
+.about-me-experience div {
+    margin-bottom: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
