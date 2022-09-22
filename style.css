@@ -68,7 +68,6 @@ header a {
 
 /*---------------------------------ABOUT ME--------------------------------*/
 .about-me {
-    margin-top: 10%;
     width: 100%;
     background-color: blueviolet;
     display: flex;
@@ -99,11 +98,48 @@ header a {
     background-color: aquamarine; 
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
 }
 .tech-use {
     width: 50%;
 }
 .tech-use div img {
-    width: 10%;
+    margin-top: 10%;
+    width: 30%;
+}
+
+.tech-use-select {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tech-use-select h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.tech-use-images {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.projects {
+    width: 50%;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.projects-images  {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projects-images img {
+    margin-top: 5%;
+    width: 80%;
 }
