@@ -143,3 +143,67 @@ header a {
     margin-top: 5%;
     width: 80%;
 }
+
+/*------------------------CONTACT---------------------*/
+.contact {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact h1 {
+    text-align: center;
+}
+.contact-form {
+    width: 50%;
+}
+.form {
+    height: 370px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: red;
+}
+
+.form div:nth-child(1) {
+    width: 50%;
+    background-color: blanchedalmond;
+}
+.form div:nth-child(2) {
+    width: 50%;
+    background-color: blanchedalmond;
+}
+.form div:nth-child(3) {
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.form div:nth-child(1) input {
+    width: 50%;
+}
+
+.form div:nth-child(2) input {
+    width: 50%;
+}
+
+.form div:nth-child(3) input {
+    width: 80%;
+    height: 50px;
+}
+
+.form div:nth-child(4) {
+    width: 100%;
+}
+
+.form textarea {
+    width: 40%;
+}
+
+/*Mapa*/
+.contact-map {
+    width: 50%;
+}
+.contact-map iframe {
+    width: 100%;
+}
