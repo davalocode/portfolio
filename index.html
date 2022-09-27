@@ -7,32 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Davalocode Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <!---------------------------HEADER----------------------------------->
     <header>
-        <a href="">About me</a>
-        <a href="">My tech career</a>
-        <a href="">Contact</a>
+        <a href="#about-me">About me</a>
+        <a href="#my-tech-career">My tech career</a>
+        <a href="#contact">Contact</a>
     </header>
 
     <!-----------------------INTRODUCTION---------------------------------->
     <div class="introduction">
         <div class="introduction-information">
             <div>
-                <h1>I like web things</h1>
+                <h1>Daniel Valdés</h1>
+                <h1>Junior FullStack Developer</h1>
                 <p>
-                    Hola buenos dias, me parece una barbaridad el
-                    tiempo que hace hoy en la ciudad en la que vivo
-                    y en la cual me desplazo
+                    I love coding things for web development and make 
+                    page looks fantastic
                 </p>
                 <span>
                     <a href="img/chusta.pdf" target="_blank" id="cv_dava">Hola</a>
                 </span>
                 <span>
-                    <a href="https://www.instagram.com/danielvaaldees/"><img src="img/instagram.svg"></a>
-                    <a href="https://github.com/davalocode"><img src="img/github.svg"></a>
+                    <a href="https://www.instagram.com/danielvaaldees/"><img src="img/social/instagram.svg"></a>
+                    <a href="https://github.com/davalocode"><img src="img/social/github.svg"></a>
+                    <a href="https://www.linkedin.com/in/daniel-vald%C3%A9s-l%C3%B3pez-2096081a9/"><img src="img/social/linkedin.svg"></a>
                 </span>
             </div>
         </div>
@@ -42,18 +44,13 @@
     </div>
 
     <!-----------------------ABOUT ME------------------------------------>
-    <div class="about-me">
+    <div class="about-me" id="about-me">
         <div class="about-me-information">
             <h1>Description</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto repellat eligendi
-                repellendus vero nulla rerum neque nobis, minus, sunt nostrum reprehenderit
-                natus pariatur? Fugit excepturi vel, natus saepe aperiam incidunt!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto repellat eligendi
-                repellendus vero nulla rerum neque nobis, minus, sunt nostrum reprehenderit
-                natus pariatur? Fugit excepturi vel, natus saepe aperiam incidunt!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto repellat eligendi
-                repellendus vero nulla rerum neque nobis, minus, sunt nostrum reprehenderit
-                natus pariatur? Fugit excepturi vel, natus saepe aperiam incidunt!</p>
+            <p>Hi, My name is Daniel and I am a computer science student. I started my journey about 
+                3 years ago when I started programming with HTML and I fell in love with the experience. </p>
+            <p>Actually I'm working on my personal projects and my degree.</p>
+            <p>The work experience that I do not have is replaced by a desire to learn and to make an effort in all my projects.</p>
         </div>
         <div class="about-me-experience">
             <h1>Experience</h1>
@@ -73,31 +70,30 @@
     </div>
 
     <!--------------------------MY TECH CAREER--------------------------->
-    <div class="my-tech-career">
+    <div class="my-tech-career" id="my-tech-career">
         <div class="tech-use">
             <div class="tech-use-select">
                 <h1>Tech I Use</h1>
-                <span>Languages</span><span>Tools</span><span>Another</span>
+                <span id="languages">Languages</span><span id="tools">Tools</span><span id="another">Another</span>
             </div>
-            <div class="tech-use-images">
-                <img src="img/css.png">
-                <img src="img/javascript.png">
-                <img src="img/html.png">
-                <img src="img/mysql.svg">
-                <img src="img/mysql.svg">
-                <img src="img/mysql.svg">
+            <div class="tech-use-images" id="tech-use-images">
+                <img src="img/languages/html.png">
+                <img src="img/languages/css.png">
+                <img src="img/languages/javascript.png">
+                <img src="img/languages/mysql.png">
+                <img src="img/languages/oracle.png">
             </div>
         </div>
         <div class="projects">
             <h1>This are some of my projects</h1>
             <div class="projects-images">
-                <img src="img/TodoList.png">
-                <img src="img/Restaurant.png">
+                <img src="img/projects/TodoList.png">
+                <img src="img/projects/Restaurant.png">
             </div>
         </div>
     </div>
     <!-------------------------CONTACT------------------------>
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="contact-form">
             <h1>CONTACT</h1>
             <div>
@@ -131,7 +127,7 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
-
+    <script src="main.js"></script>
 </body>
 
 </html>

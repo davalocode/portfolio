@@ -1,3 +1,7 @@
+/*---------------------------GENERAL---------------------------*/
+html {
+    scroll-behavior: smooth;
+}
 
 /*-------------------------------HEADER----------------------------*/
 header {
@@ -54,7 +58,7 @@ header a {
 }
 
 .introduction-information span img {
-    width: 10%;
+    width: 20%;
 }
 
 
@@ -79,6 +83,9 @@ header a {
     width: 46%;
     margin: 2%;
     height: 400px;
+}
+.about-me h1 {
+    text-align: center;
 }
 
 .about-me-experience {
@@ -112,6 +119,9 @@ header a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.tech-use-select span {
+    cursor: pointer;
 }
 .tech-use-select h1 {
     width: 100%;
