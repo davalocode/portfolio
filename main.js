@@ -1,4 +1,3 @@
-
 //-----------------------DELETE CONTENT FUNCTION--------------------------//
 function delete_content() {
     const list = document.getElementById("tech-use-images");

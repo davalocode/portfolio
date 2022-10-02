@@ -8,6 +8,7 @@
     <title>Davalocode Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
     </header>
 
     <!-----------------------INTRODUCTION---------------------------------->
-    <div class="introduction">
+    <div class="introduction" data-aos="fade-up">
         <div class="introduction-information">
             <div>
                 <h1>Daniel Valdés</h1>
@@ -44,12 +45,12 @@
     </div>
 
     <!-----------------------ABOUT ME------------------------------------>
-    <div class="about-me" id="about-me">
+    <div class="about-me" id="about-me" data-aos="fade-up">
         <div class="about-me-information">
             <h1>Description</h1>
-            <p>Hi, My name is Daniel and I am a computer science student. I started my journey about 
+            <p>Hi, My name is Daniel and I am a computer science student. I <a href="">started my journey</a> about 
                 3 years ago when I started programming with HTML and I fell in love with the experience. </p>
-            <p>Actually I'm working on my personal projects and my degree.</p>
+            <p>Actually I'm working on <a href="https://github.com/davalocode">my personal projects</a>  and my degree.</p>
             <p>The work experience that I do not have is replaced by a desire to learn and to make an effort in all my projects.</p>
         </div>
         <div class="about-me-experience">
@@ -70,7 +71,7 @@
     </div>
 
     <!--------------------------MY TECH CAREER--------------------------->
-    <div class="my-tech-career" id="my-tech-career">
+    <div class="my-tech-career" id="my-tech-career" data-aos="fade-up">
         <div class="tech-use">
             <div class="tech-use-select">
                 <h1>Tech I Use</h1>
@@ -89,29 +90,27 @@
             <div class="projects-images">
                 <img src="img/projects/TodoList.png">
                 <img src="img/projects/Restaurant.png">
+                <img src="img/projects/weather.png">
             </div>
         </div>
     </div>
     <!-------------------------CONTACT------------------------>
-    <div class="contact" id="contact">
+    <div class="contact" id="contact" data-aos="fade-up">
         <div class="contact-form">
             <h1>CONTACT</h1>
             <div>
                 <form action="" class="form" id="contact-form">
                     <div>
-                        <label for="name-form">Name</label>
-                        <br>
-                        <input type="text" name="name-form" required>
+                        
+                        <input type="text" name="name-form" placeholder="Name" required>
                     </div>
                     <div>
-                        <label for="email-form">Gmail</label>
-                        <br>
-                        <input type="email" name="email-form" required>
+                        
+                        <input type="email" name="email-form" placeholder="Email" required>
                     </div>
                     <div>
-                        <label for="message-form">Message</label>
-                        <br>
-                        <textarea rows="4" name="message-form" form="contact-form"></textarea>
+                        
+                        <textarea  name="message-form" placeholder="Message" form="contact-form"></textarea>
                     </div>
                     <div>
                     <input type="submit">
@@ -123,11 +122,18 @@
         <div class="contact-map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50729.785983666145!2d-5.990077605613776!3d37.37536558741976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c1114be6291%3A0x34f018621cfe5648!2sSevilla!5e0!3m2!1ses!2ses!4v1664013425806!5m2!1ses!2ses"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                height="650" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            delay: 300
+        });
+      </script>
 </body>
 
 </html>
