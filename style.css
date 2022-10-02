@@ -20,14 +20,20 @@ a {
 /*-------------------------------HEADER----------------------------*/
 header {
     width: 100%;
-    background-color: lightblue;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+    z-index: 20;
+    background-color: #15253c;
+    box-shadow: 0 10px 30px -10px #0a192f;
+    animation: fadeIn 1s;
 }
 
 header a {
     margin: 1%;
+    margin-left: 10%;
     text-decoration: none;
     transition: all 300ms;
     color: white;
@@ -38,6 +44,14 @@ header a:hover {
     transition: all 300ms;
     font-weight: bolder;
 
+}
+header div {
+    width: 30%;
+}
+
+header img {
+    margin: 1%;
+    width: 8%;
 }
 
 /*---------------------------INTRODUCTION---------------------------*/
@@ -219,6 +233,13 @@ header a:hover {
 .projects-images img {
     margin-top: 5%;
     width: 80%;
+    opacity: 50%;
+    transition: all 300ms;
+}
+
+.projects-images img:hover {
+    transition: all 300ms;
+    opacity: 100%;
 }
 
 /*------------------------CONTACT---------------------*/
